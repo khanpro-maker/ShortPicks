@@ -11,7 +11,7 @@ const Loading = () => (
       O
     </motion.div>
     <p className="text-lg mt-4 px-4 max-w-md">
-      Welcome! Once the app loads, you can click the "Add" button to create a new Shortpick. But You have reload every time to create New shortpicks dont worry all your question and answer are saved!🤯
+      Welcome! Once the app loads, you can click the "Add" button to create a new Shortpick✊🏻.
     </p>
   </div>
 );
