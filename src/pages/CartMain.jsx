@@ -3,7 +3,7 @@ import Add from '../components/Add'
 import Intial from '../components/Intial'
 import { useState } from 'react'
 import { useEffect } from 'react'
-
+import BackgroundVideo from '../components/Background'
 const CartMain = () => {
     const [loading,setLoading] = useState(true)
     useEffect(()=>{

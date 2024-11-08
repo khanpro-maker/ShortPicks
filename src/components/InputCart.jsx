@@ -69,6 +69,7 @@ const InputCart = () => {
                                     onClick={save}
                                     className=' inline w-auto h-auto border rounded-full mt-3'>save</button>
                             </>
+                           
                         </div>
                     </div>
                 </div>
