@@ -54,20 +54,20 @@ const InputCart = () => {
                                     <input type="text"
                                         value={temQus}
                                         placeholder='Enter question'
-                                        className='bg-transparent border border-gray-400 rounded-md'
+                                        className='bg-transparent border-3  rounded-md'
                                         onChange={handleques} />
                                 </h1>
                                 <h3 className='text-center mt-5 break-words'>
                                     <input type="text"
                                         value={temAns}
                                         placeholder='Enter ans'
-                                        className='bg-transparent border border-gray-400 rounded-md'
+                                        className='bg-transparent border-3  rounded-md'
                                         onChange={handleAns}
                                     />
                                 </h3>
                                 <button
                                     onClick={save}
-                                    className=' inline w-auto h-auto border rounded-full mt-3'>save</button>
+                                    className=' inline w-auto h-auto border rounded-full mt-10'>save</button>
                             </>
                            
                         </div>
