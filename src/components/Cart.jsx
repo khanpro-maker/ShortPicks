@@ -11,6 +11,9 @@ const Cart = ({ question, ans }) => {
           </h1>
           <h3 className='text-center mt-5 break-words'>{ans}</h3>
         </div>
+        {/* <div className='bottom-0'>
+          <h6>Date</h6>
+        </div> */}
       </div>
     </div>
 </section>

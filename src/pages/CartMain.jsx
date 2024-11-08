@@ -1,10 +1,20 @@
 import React from 'react'
 import Add from '../components/Add'
+import Intial from '../components/Intial'
+import { useState } from 'react'
+import { useEffect } from 'react'
 
 const CartMain = () => {
+    const [loading,setLoading] = useState(true)
+    useEffect(()=>{
+       const timer =  setTimeout(()=>{
+            setLoading(false)
+        },5000)
+        return ()=>clearTimeout(timer)
+    },[])
   return (
     <div>
-      <Add/>
+      {loading ? <Intial/>:<Add/> }
     </div>
   )
 }

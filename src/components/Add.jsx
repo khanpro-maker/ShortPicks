@@ -6,7 +6,7 @@ const Add = () => {
   const [input, setInput] = useState([]);
 
   function handleAdd() {
-    setInput([...input, Date.now()]);
+    setInput([...input, Date.now()]); 
   }
 
   return (
