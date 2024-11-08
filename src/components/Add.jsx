@@ -5,9 +5,8 @@ import InputCart from './InputCart';
 const Add = () => {
   const [input, setInput] = useState([]);
 
-  // Handle the add button to push a new unique ID into the array
   function handleAdd() {
-    setInput([...input, Date.now()]); // Using Date.now() for unique identifiers
+    setInput([...input, Date.now()]);
   }
 
   return (
@@ -24,7 +23,7 @@ const Add = () => {
       </div>
       <div className='mt-10'>
         {input.map((id) => (
-          <InputCart key={id} /> // Render an InputCart for each unique ID
+          <InputCart key={id} /> 
         ))}
       </div>
     </div>
