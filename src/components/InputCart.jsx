@@ -43,7 +43,7 @@ const InputCart = () => {
     return (
         <section >
             {!isSaved ? (
-                <div className='w-screen h-screen grid place-items-center cursor:pointer'>
+                <div className='w-screen h-screen grid place-items-center cursor-pointer '>
                     <div className=' relative w-[337px] h-[529px] bg-blue rounded-[20px]  transform transition-all duration-300 hover:scale-105 hover:shadow-lg'>
                         <Header />
                         <div id="text" className='absolute top-40 left-5 right-5 text-white flex flex-col justify-center'

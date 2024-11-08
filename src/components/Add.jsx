@@ -10,7 +10,7 @@ const Add = () => {
   }
 
   return (
-    <div className='relative w-screen h-screen flex flex-col items-center'>
+    <div className='relative w-screen h-screen flex flex-col items-center bg-[#D2FF72]'>
       <div className='absolute bottom-9 bg-red-600 rounded-full hover:bg-slate-500'>
         <motion.button 
           onClick={handleAdd} 
