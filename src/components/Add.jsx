@@ -21,7 +21,7 @@ const Add = () => {
         ))}
       </div>
       
-      <div className="absolute bottom-10 flex gap-4">
+      <div className="absolute bottom-14 flex gap-4">
         <motion.button
           onClick={handleAdd}
           whileHover={{ scale: 1.2 }}
@@ -36,7 +36,7 @@ const Add = () => {
           whileHover={{ scale: 1.2 }}
           whileTap={{ scale: 0.9 }}
           transition={{ type: "spring", stiffness: 400, damping: 10 }}
-          className="w-16 h-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
+          className="w-auto h-16 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 text-white font-semibold py-2 px-4 rounded-lg shadow-md transform transition-all duration-300 hover:scale-105 hover:shadow-xl"
         >
           Refresh
         </motion.button>
